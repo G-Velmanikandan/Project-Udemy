@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy</title>
+    <link rel="icon" href="./Images/Udemy logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Young+Serif&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="navbar">
+
+        <div class="nav-bar">
+            <h1 class="nav-bar__title">Udemy</h1>
+            <p>Categories</p>
+        </div>
+
+        <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0);"></i>
+            <input placeholder="Search for anything..">
+        </div>
+
+        <div class="side-bar">
+            <p>Udemy Business</p>
+            <P>Teach on Udemy</P>
+            <i class="fa-solid fa-cart-shopping" style="color: rgb(0, 0, 0);"></i>
+            <button class="side-bar__log">Log in</button>
+            <button class="side-bar__sign">Sign up</button>
+            <button class="side-bar__globe"><i class="fa-solid fa-globe" style="color: rgb(27, 2, 2);"></i></button>
+        </div>
+
+    </header>
+
+    <main>
+        <menu class="menu-bar">
+            <p>Development</p>
+            <p>Business</p>
+            <p>Finance & Accounting</p>
+            <p>Office Productivity</p>
+            <p>Personal development</p>
+            <p>Design</p>
+            <p>Marketing</p>
+            <p>Health & Fitness</p>
+        </menu>
+
+        <banner class="sale-image">
+            <img src="./Images/Sale-image.jpg" alt="Sale Image">
+        </banner>
+
+        <div class="recommended-topics">
+            <h1 class="recommended__title">Recommended for you</h1>
+
+            <div class="recommended__container">
+
+                <div class="topic-one">
+                    <img src="./Images/JS.jpg">
+                    <h3>JavaScript - The Complete JavaScript Course 2026</h3>
+                    <P>Jonas Schmed</P>
+                    <p><b>4.8</b> ⭐⭐⭐⭐ (73,285)</p>
+                    <P><b>₹449</b> <del>₹1599</del></P>
+                </div>
+
+                <div class="topic-two">
+                    <img src="./Images/P1.jpg">
+                    <h3>Python for Everybody Specialication</h3>
+                    <P>Dr. Charles</P>
+                    <p><b>4.9</b> ⭐⭐⭐⭐ (133,655)</p>
+                    <P><b>₹549</b> <del>₹1899</del></P>
+                </div>
+
+                <div class="topic-three">
+                    <img src="./Images/React.jpg">
+                    <h3>The Complete React Developer Course</h3>
+                    <P>Andrew</P>
+                    <p><b>4.7</b> ⭐⭐⭐⭐ (60,899)</p>
+                    <P><b>₹699</b> <del>₹1999</del></P>
+                </div>
+
+                <div class="topic-four">
+                    <img src="./Images/Ex.jpg">
+                    <h3>Excel - Excel from Beginner to Advanced</h3>
+                    <P>Kyle Pew</P>
+                    <p><b>4.5</b> ⭐⭐⭐⭐ (45,769)</p>
+                    <P><b>₹399</b> <del>₹999</del></P>
+                </div>
+            </div>
+        </div>
+
+        <div class="topics-search">
+            <h2 class="topics-search__title">Find the right topic for you</h2>
+            <p class="topics-search__desc">Get recommendations based on your interests</p>
+            <input type="search" placeholder="What do you want to learn today?">
+            <button class="topics-search__getstart">Get Started</button>
+        </div>
+
+        <popular-courses>
+            <div class="popular-courses">
+                <h1 class="popular-courses__title">Popular Courses</h1>
+
+                <div class="popular-courses__suggestions">
+                    <a href="index.html" style="text-decoration: none;"> ✦ Highest Rated</a>
+                    <a href="index.html" style="text-decoration: none;"> ✦ Most Reviewed</a>
+                    <a href="index.html" style="text-decoration: none;"> ✦ Most Students</a>
+                </div>
+
+                <div class="popular-courses__container">
+                    <div class="course-card">
+                        <img src="./Images/WD.jpg">
+                        <h3>Web Development Bootcamp 2026</h3>
+                        <P>DR. Angela</P>
+                        <p><b>4.9</b> ⭐⭐⭐⭐ (213,280)</p>
+                        <P><b>₹559</b> <del>₹1999</del></P>
+                    </div>
+
+                    <div class="course-card">
+                        <img src="./Images/DSA.jpg">
+                        <h3>Data Structures & Algorithms in Java</h3>
+                        <P>Abdul</P>
+                        <p><b>4.6</b> ⭐⭐⭐⭐ (21,280)</p>
+                        <P><b>₹449</b> <del>₹1599</del></P>
+                    </div>
+
+                    <div class="course-card">
+                        <img src="./Images/U1.jpg">
+                        <h3>Complete UI/UX Design Course</h3>
+                        <P>Queens</P>
+                        <p><b>4.7</b> ⭐⭐⭐⭐ (51,280)</p>
+                        <P><b>₹599</b> <del>₹1999</del></P>
+                    </div>
+
+                    <div class="course-card">
+                        <img src="./Images/DM.jpg">
+                        <h3>Digital Marketing Masterclass 2026</h3>
+                        <P>Mitchel</P>
+                        <p><b>4.5</b> ⭐⭐⭐⭐ (15,490)</p>
+                        <P><b>₹399</b> <del>₹1299</del></P>
+                    </div>
+
+                </div>
+            </div>
+
+        </popular-courses>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer__content">
+
+            <div class="footer__list-1">
+                <h3>About</h3>
+                <a href="About" style="text-decoration: none; color: wheat;">About us</a>
+                <a href="Careers" style="text-decoration: none; color: wheat;">Careers</a>
+                <a href="Contact us" style="text-decoration: none; color: wheat;">Contact us</a>
+                <a href="Blog" style="text-decoration: none; color: wheat;">Blog</a>
+                <a href="Investors" style="text-decoration: none; color: wheat;">Investors</a>
+                <a href="Find more on Coursera" style="text-decoration: none; color: wheat;">Find more on Coursera</a>
+            </div>
+
+            <div class="footer__list-2">
+                <h3>Discover Udemy</h3>
+                <a href="Get the app" style="text-decoration: none; color: wheat;">Get the app</a>
+                <a href="Touch on Udemy" style="text-decoration: none; color: wheat;">Touch on Udemy</a>
+                <a href="Plans and pricing" style="text-decoration: none; color: wheat;">Plans and pricing</a>
+                <a href="Affiliate" style="text-decoration: none; color: wheat;">Affiliate</a>
+                <a href="Help and Support" style="text-decoration: none; color: wheat;">Help and Support</a>
+            </div>
+
+            <div class="footer__list-3">
+                <h3>Udemy for Business</h3>
+                <a href="Udemy Business" style="text-decoration: none; color: wheat;">Udemy Business</a>
+            </div>
+
+            <div class="footer__list-4">
+                <h3>Legal & Accessibility</h3>
+                <a href="Get the app" style="text-decoration: none; color: wheat;">Accessibility statement</a>
+                <a href="Touch on Udemy" style="text-decoration: none; color: wheat;">Privacy policy</a>
+                <a href="Plans and pricing" style="text-decoration: none; color: wheat;">Sitemap</a>
+                <a href="Affiliate" style="text-decoration: none; color: wheat;">Terms</a>
+            </div>
+
+        </div>
+
+        <div class="footer__bottom">
+
+            <div class="footer__bottom-1">
+                <h1>Udemy</h1>
+                <p>&copy; 2026 Udemy, Inc.</p>
+            </div>
+
+            <div class="footer__bottom-2">
+                <p>Cookie settings</p>
+            </div>
+
+            <div class="footer__bottom-3">
+                <p><i class="fa-solid fa-globe" style="color: rgb(246, 230, 230);"></i>English</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
